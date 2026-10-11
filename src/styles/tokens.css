@@ -1,0 +1,59 @@
+:root {
+  --brand: #1595f9;
+  --bg-primary: #e6f0f8;
+  --bg-secondary: #f2f7fb;
+  --surface: #ffffff;
+  --text-primary: #1c1c1c;
+  --text-secondary: #515965;
+  --border: #969696;
+  --accent: var(--brand);
+  --accent-readable: #0064b4;
+  --action-readable-bg: #0064b4;
+  --on-accent: #ffffff;
+  --shadow: 0 24px 40px -16px rgba(20, 114, 179, 0.3);
+  --shadow-neutral: 0 24px 36px -16px rgba(0, 0, 0, 0.23);
+  --fixed-ink: #1c1c1c;
+  --fixed-white: #ffffff;
+  --faq-answer: #0e4f7c;
+  --tier-surface: #e6f0f8;
+  --range-fill: #1595f9;
+  --range-soft: #91ccf7;
+  --focus: #004b8a;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --radius-card: 32px;
+  --radius-small: 16px;
+  --radius-full: 999px;
+  --font-ui: "Prompt", sans-serif;
+  --font-card: "Inter", sans-serif;
+  --text-body: clamp(16px, 1.041667vw, 20px);
+  --text-small: clamp(14px, 0.833333vw, 16px);
+  --text-heading: clamp(36px, 2.5vw, 48px);
+  --text-section: clamp(48px, 3.333333vw, 64px);
+  --text-display: clamp(72px, 5vw, 96px);
+  --desktop-gutter: clamp(64px, 13.020833vw, 250px);
+  --section-height: clamp(810px, 56.25vw, 1080px);
+  --motion-fast: 180ms;
+  --motion-normal: 280ms;
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --bg-primary: #393939;
+  --bg-secondary: #444444;
+  --surface: #555555;
+  --text-primary: #ffffff;
+  --text-secondary: #e1e1e1;
+  --border: #929292;
+  --accent-readable: #9dd7ff;
+  --focus: #acdfff;
+  --shadow: 0 24px 32px -16px rgba(0, 0, 0, 0.45);
+  --shadow-neutral: 0 24px 32px -16px rgba(0, 0, 0, 0.45);
+  color-scheme: dark;
+}
